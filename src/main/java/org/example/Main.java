@@ -8,7 +8,7 @@ import static java.lang.IO.println;
 void main() throws IOException {
     Faker faker = new Faker();
 
-    println("Citazione di Chuck Norris: " + faker.chuckNorris().fact());
+    println("Citazione bella di Chuck Norris: " + faker.chuckNorris().fact());
     println("Pokemon selvatico: " + faker.pokemon().name());
 
     String asciiArt = FigletFont.convertOneLine("Che figone che sono");
